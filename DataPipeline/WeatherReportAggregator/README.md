@@ -1,11 +1,6 @@
-# pytest-pyspark
-A sample project to organise your pyspark project. It demonstrates the use of `pytest` to unit test PySpark methods. It also demonstrates the use of pytest's conftest.py feature which can be used for dependency injection. In this case SparkSession is being injected to the test cases.
+# WetherReportGenerator
 
-# How to use it
-* The files containing main methods should be kept outside the package
-* Create an egg file by running `python setup.py bdist_egg`
-* Submit your spark application:
-`spark-submit --py-files=pytest-pyspark-1.0.egg main.py`
+
 
 # How to Run Test cases
 * Create a virtual environment: `virtualenv pyspark-venv`

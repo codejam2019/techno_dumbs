@@ -16,7 +16,7 @@ class data_agrregators:
         return df_input
 
     def write_destination(self,df_aggregate):
-        df_aggregate.write.parquet(self.destination)
+        df_aggregate.write.option("hreader","true").mode("overwrite").csv(self.destination)
     def run_aggregate(self):
         df_input=self.read_source()
         df_input.registerTempTable("weatherData")
