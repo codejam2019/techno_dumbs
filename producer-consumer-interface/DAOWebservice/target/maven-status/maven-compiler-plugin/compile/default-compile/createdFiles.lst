@@ -1,0 +1,6 @@
+com\codejam\application\CodeJamDataServicesApplication.class
+com\codejam\service\DataProcessing.class
+com\codejam\utils\ServletConfigurer.class
+com\codejam\controller\DataController.class
+com\codejam\model\CodeJamData.class
+com\codejam\utils\CORSFilter.class
